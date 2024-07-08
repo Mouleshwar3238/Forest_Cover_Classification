@@ -26,7 +26,7 @@ The dataset contains data from 4 areas of the Roosevelt National Forest in Color
   </tr>
   <tr>
     <td align="center">Target variable</td>
-    <td align="center">Cover_Type (1 to 7)</td>
+    <td align="center">Cover_Type (0 to 6)</td>
   </tr>
 </tbody>
 </table>
