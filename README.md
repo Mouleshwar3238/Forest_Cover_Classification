@@ -40,29 +40,25 @@ For the KNN classifier, the accuracy rates were computed for different values of
   <thead>
     <tr>
       <th align="center"></th>
-      <th align="center">Training Subset</th>
-      <th align="center">Test Subset</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
-      <td align="center">93.239</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
-      <td align="center">100.000</td>
+      <td align="center"><strong>Test Subset</strong></td>
       <td align="center">93.239</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
-      <td align="center">100.000</td>
       <td align="center">93.239</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">100.000</td>
+      <td align="center">93.239</td>
       <td align="center">93.239</td>
     </tr>
   </tbody>
@@ -74,93 +70,80 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <th align="center"></th>
       <th align="center"></th>
-      <th align="center">Training Subset</th>
-      <th align="center">Test Subset</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="4"><strong>K = 3</strong></td>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
+      <td align="center" rowspan="2"><strong>K = 3</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
       <td align="center">96.748</td>
-      <td align="center">92.914</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
       <td align="center">96.744</td>
-      <td align="center">92.893</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
       <td align="center">96.748</td>
-      <td align="center">92.914</td>
+      <td align="center">96.745</td>
     </tr>
     <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">96.745</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">92.914</td>
+      <td align="center">92.893</td>
+      <td align="center">92.914</td>
       <td align="center">92.899</td>
     </tr>
     <tr>
-      <td align="center" rowspan="4"><strong>K = 5</strong></td>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
-      <td align="center">95.393</td>
-      <td align="center">92.446</td>
+      <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
+      <td align="center" rowspan="2"><strong>K = 5</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">95.393</td>
       <td align="center">95.384</td>
+      <td align="center">95.393</td>
+      <td align="center">95.384</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">92.446</td>
       <td align="center">92.419</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
-      <td align="center">95.393</td>
       <td align="center">92.446</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">95.384</td>
       <td align="center">92.423</td>
     </tr>
     <tr>
-      <td align="center" rowspan="4"><strong>K = 10</strong></td>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
-      <td align="center">93.271</td>
-      <td align="center">91.169</td>
+      <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
+      <td align="center" rowspan="2"><strong>K = 10</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">93.271</td>
       <td align="center">93.253</td>
-      <td align="center">91.128</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
       <td align="center">93.271</td>
-      <td align="center">91.169</td>
+      <td align="center">93.241</td>
     </tr>
     <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">93.241</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">91.169</td>
+      <td align="center">91.128</td>
+      <td align="center">91.169</td>
       <td align="center">91.123</td>
     </tr>
     <tr>
-      <td align="center" rowspan="4"><strong>K = 20</strong></td>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
-      <td align="center">90.861</td>
-      <td align="center">89.552</td>
+      <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
+      <td align="center" rowspan="2"><strong>K = 20</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">90.861</td>
       <td align="center">90.815</td>
-      <td align="center">89.490</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
       <td align="center">90.861</td>
-      <td align="center">89.552</td>
+      <td align="center">90.798</td>
     </tr>
     <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">90.798</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">89.552</td>
+      <td align="center">89.490</td>
+      <td align="center">89.552</td>
       <td align="center">89.476</td>
     </tr>
   </tbody>
