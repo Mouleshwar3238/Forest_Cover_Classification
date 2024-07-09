@@ -148,3 +148,53 @@ For the KNN classifier, the accuracy rates were computed for different values of
     </tr>
   </tbody>
   </table>
+
+## Decision Tree Classifier
+A decision tree classifier was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>Criterion = Entropy</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">94.001</td>
+      <td align="center">94.000</td>
+      <td align="center">94.001</td>
+      <td align="center">94.000</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Criterion = Gini Index</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">93.407</td>
+      <td align="center">93.402</td>
+      <td align="center">93.407</td>
+      <td align="center">93.405</td>
+    </tr>
+  </tbody>
+  </table>
