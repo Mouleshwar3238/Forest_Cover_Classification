@@ -173,10 +173,10 @@ A decision tree classifier was implemented using various impurity measures, and 
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">94.001</td>
-      <td align="center">94.000</td>
-      <td align="center">94.001</td>
-      <td align="center">94.000</td>
+      <td align="center">94.381</td>
+      <td align="center">94.378</td>
+      <td align="center">94.381</td>
+      <td align="center">94.379</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -191,10 +191,12 @@ A decision tree classifier was implemented using various impurity measures, and 
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.407</td>
-      <td align="center">93.402</td>
-      <td align="center">93.407</td>
-      <td align="center">93.405</td>
+      <td align="center">93.879</td>
+      <td align="center">93.876</td>
+      <td align="center">93.879</td>
+      <td align="center">93.877</td>
     </tr>
   </tbody>
   </table>
+
+
