@@ -200,11 +200,10 @@ A decision tree classifier was implemented using various impurity measures, and 
   </table>
 
 ## Gaussian Naive Bayes Classifier
-A gaussian naive bayes classifier was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+A Gaussian Naive Bayes classifier was implemented with prior probabilities as the class probabilities of the dataset, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
-      <th align="center">Criterion</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -214,37 +213,18 @@ A gaussian naive bayes classifier was implemented using various impurity measure
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.00</td>
-      <td align="center">100.000</td>
-      <td align="center">100.00</td>
+      <td align="center">8.762</td>
+      <td align="center">49.628</td>
+      <td align="center">8.762</td>
+      <td align="center">5.633</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">94.381</td>
-      <td align="center">94.378</td>
-      <td align="center">94.381</td>
-      <td align="center">94.379</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.00</td>
-      <td align="center">100.000</td>
-      <td align="center">100.00</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.879</td>
-      <td align="center">93.876</td>
-      <td align="center">93.879</td>
-      <td align="center">93.877</td>
+      <td align="center">8.676</td>
+      <td align="center">49.848</td>
+      <td align="center">8.7676/td>
+      <td align="center">5.580/td>
     </tr>
   </tbody>
   </table>
