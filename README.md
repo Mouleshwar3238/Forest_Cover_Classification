@@ -68,7 +68,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
   <table>
   <thead>
     <tr>
-      <th align="center"></th>
+      <th align="center">Value of K</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -78,7 +78,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>K = 3</strong></td>
+      <td align="center" rowspan="2"><strong>3</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">96.748</td>
       <td align="center">96.744</td>
@@ -96,7 +96,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
       <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center" rowspan="2"><strong>K = 5</strong></td>
+      <td align="center" rowspan="2"><strong>5</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">95.393</td>
       <td align="center">95.384</td>
@@ -114,7 +114,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
       <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center" rowspan="2"><strong>K = 10</strong></td>
+      <td align="center" rowspan="2"><strong>10</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">93.271</td>
       <td align="center">93.253</td>
@@ -132,7 +132,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
       <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center" rowspan="2"><strong>K = 20</strong></td>
+      <td align="center" rowspan="2"><strong>20</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">90.861</td>
       <td align="center">90.815</td>
@@ -154,7 +154,7 @@ A decision tree classifier was implemented using various impurity measures, and 
   <table>
   <thead>
     <tr>
-      <th align="center"></th>
+      <th align="center">Criterion</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -164,7 +164,7 @@ A decision tree classifier was implemented using various impurity measures, and 
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>Criterion = Entropy</strong></td>
+      <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
       <td align="center">100.00</td>
@@ -182,7 +182,7 @@ A decision tree classifier was implemented using various impurity measures, and 
       <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center" rowspan="2"><strong>Criterion = Gini Index</strong></td>
+      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
       <td align="center">100.00</td>
@@ -199,4 +199,53 @@ A decision tree classifier was implemented using various impurity measures, and 
   </tbody>
   </table>
 
+## Gaussian Naive Bayes Classifier
+A gaussian naive bayes classifier was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Criterion</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>Entropy</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">94.381</td>
+      <td align="center">94.378</td>
+      <td align="center">94.381</td>
+      <td align="center">94.379</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">93.879</td>
+      <td align="center">93.876</td>
+      <td align="center">93.879</td>
+      <td align="center">93.877</td>
+    </tr>
+  </tbody>
+  </table>
 
