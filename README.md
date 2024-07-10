@@ -56,10 +56,10 @@ For the KNN classifier, the accuracy rates were computed for different values of
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.239</td>
-      <td align="center">93.239</td>
-      <td align="center">93.239</td>
-      <td align="center">93.239</td>
+      <td align="center">93.554</td>
+      <td align="center">93.552</td>
+      <td align="center">93.554</td>
+      <td align="center">93.553</td>
     </tr>
   </tbody>
   </table>
@@ -80,17 +80,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>3</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">96.748</td>
-      <td align="center">96.744</td>
-      <td align="center">96.748</td>
-      <td align="center">96.745</td>
+      <td align="center">96.924</td>
+      <td align="center">96.920</td>
+      <td align="center">96.924</td>
+      <td align="center">96.921</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">92.914</td>
-      <td align="center">92.893</td>
-      <td align="center">92.914</td>
-      <td align="center">92.899</td>
+      <td align="center">93.244</td>
+      <td align="center">93.224</td>
+      <td align="center">93.244</td>
+      <td align="center">93.229</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -98,17 +98,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>5</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">95.393</td>
-      <td align="center">95.384</td>
-      <td align="center">95.393</td>
-      <td align="center">95.384</td>
+      <td align="center">95.624</td>
+      <td align="center">95.616</td>
+      <td align="center">95.624</td>
+      <td align="center">95.616</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">92.446</td>
-      <td align="center">92.419</td>
-      <td align="center">92.446</td>
-      <td align="center">92.423</td>
+      <td align="center">92.802</td>
+      <td align="center">92.776</td>
+      <td align="center">92.802</td>
+      <td align="center">92.778</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -116,17 +116,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>10</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">93.271</td>
-      <td align="center">93.253</td>
-      <td align="center">93.271</td>
-      <td align="center">93.241</td>
+      <td align="center">93.585</td>
+      <td align="center">93.567</td>
+      <td align="center">93.585</td>
+      <td align="center">93.557</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">91.169</td>
-      <td align="center">91.128</td>
-      <td align="center">91.169</td>
-      <td align="center">91.123</td>
+      <td align="center">91.640</td>
+      <td align="center">91.596</td>
+      <td align="center">91.640</td>
+      <td align="center">91.593</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -134,17 +134,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>20</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">90.861</td>
-      <td align="center">90.815</td>
-      <td align="center">90.861</td>
-      <td align="center">90.798</td>
+      <td align="center">91.298</td>
+      <td align="center">91.257</td>
+      <td align="center">91.298</td>
+      <td align="center">91.245</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">89.552</td>
-      <td align="center">89.490</td>
-      <td align="center">89.552</td>
-      <td align="center">89.476</td>
+      <td align="center">90.102</td>
+      <td align="center">90.046</td>
+      <td align="center">90.102</td>
+      <td align="center">90.033</td>
     </tr>
   </tbody>
   </table>
