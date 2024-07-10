@@ -2,7 +2,7 @@
 Implemented some popular classification algorithms to predict the type of forest cover
 
 ## Dataset Description
-The dataset contains data from 4 areas of the Roosevelt National Forest in Colorado. It includes information on tree type, shadow coverage, distance to nearby landmarks (roads etcetera), soil type, and local topography for 7 different types of forest cover.
+The dataset contains data from 4 areas of the Roosevelt National Forest in Colorado. It includes information on tree type, shadow coverage, distance to nearby landmarks (roads etc.), soil type, and local topography for 7 different types of forest cover.
 * Title: Forest Cover Type Dataset
 * URL: https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset
 <table>
