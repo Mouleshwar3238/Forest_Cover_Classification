@@ -279,3 +279,32 @@ A Gaussian Naive Bayes classifier was implemented with prior probabilities as th
   </tbody>
   </table>
 
+## Linear SVC (Support Vector Classifier)
+A linear SVC was implemented using the L2 norm, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">71.272</td>
+      <td align="center">70.391</td>
+      <td align="center">71.272</td>
+      <td align="center">69.710</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">71.271</td>
+      <td align="center">70.353</td>
+      <td align="center">71.271</td>
+      <td align="center">69.662</td>
+    </tr>
+  </tbody>
+  </table>
