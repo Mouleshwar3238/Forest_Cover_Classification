@@ -26,7 +26,7 @@ The dataset contains data from 4 areas of the Roosevelt National Forest in Color
   </tr>
   <tr>
     <td align="center">Target variable</td>
-    <td align="center">Cover_Type (0 to 6)</td>
+    <td align="center">Cover_Type (1 to 7)</td>
   </tr>
 </tbody>
 </table>
@@ -195,6 +195,56 @@ A decision tree classifier was implemented using various impurity measures, and 
       <td align="center">93.876</td>
       <td align="center">93.879</td>
       <td align="center">93.877</td>
+    </tr>
+  </tbody>
+  </table>
+
+## Random Forest Classifier
+A random forest classifier with 200 estimators was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Criterion</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>Entropy</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">95.770</td>
+      <td align="center">95.779</td>
+      <td align="center">95.770</td>
+      <td align="center">95.751</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">95.594</td>
+      <td align="center">95.609</td>
+      <td align="center">95.594</td>
+      <td align="center">95.571</td>
     </tr>
   </tbody>
   </table>
