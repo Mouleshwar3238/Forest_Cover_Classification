@@ -308,3 +308,33 @@ A linear SVC was implemented using the L2 norm, and confusion matrices and bar p
     </tr>
   </tbody>
   </table>
+
+## Logistic Regression
+A logistic regression model was implemented using the L2 norm and the 'saga' solver, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">72.514</td>
+      <td align="center">71.309</td>
+      <td align="center">72.514</td>
+      <td align="center">71.496</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">72.261</td>
+      <td align="center">70.979</td>
+      <td align="center">72.261</td>
+      <td align="center">71.220</td>
+    </tr>
+  </tbody>
+  </table>
