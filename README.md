@@ -167,9 +167,9 @@ A decision tree classifier was implemented using various impurity measures, and 
       <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
@@ -185,9 +185,9 @@ A decision tree classifier was implemented using various impurity measures, and 
       <td align="center" rowspan="2"><strong>Gini Index</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
@@ -217,9 +217,9 @@ A random forest classifier with 200 estimators was implemented using various imp
       <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
@@ -235,9 +235,9 @@ A random forest classifier with 200 estimators was implemented using various imp
       <td align="center" rowspan="2"><strong>Gini Index</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
       <td align="center">100.000</td>
-      <td align="center">100.00</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
@@ -338,3 +338,72 @@ A logistic regression model was implemented using the L2 norm and the 'saga' sol
     </tr>
   </tbody>
   </table>
+
+## Neural Network
+A neural network with 5 hidden layers was implemented using different activation functions, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Activation Function</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>ReLU</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">97.535</td>
+      <td align="center">96.529</td>
+      <td align="center">95.054</td>
+      <td align="center">95.780</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">95.872</td>
+      <td align="center">94.200</td>
+      <td align="center">92.102</td>
+      <td align="center">93.123</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Tanh</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">97.742</td>
+      <td align="center">95.612</td>
+      <td align="center">96.139</td>
+      <td align="center">95.869</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">95.540</td>
+      <td align="center">92.041</td>
+      <td align="center">92.279</td>
+      <td align="center">92.157</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Sigmoid</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">97.432</td>
+      <td align="center">96.447</td>
+      <td align="center">94.942</td>
+      <td align="center">95.653</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">96.012</td>
+      <td align="center">94.470</td>
+      <td align="center">91.959</td>
+      <td align="center">93.090</td>
+    </tr>
+  </tbody>
+  </table>
+
