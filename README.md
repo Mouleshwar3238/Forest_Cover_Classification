@@ -505,3 +505,139 @@ A histogram-based gradient boosting classifier was implemented using L2 regurlar
   </tbody>
   </table>
 
+## Linear Discriminant Analysis (LDA)
+A LDA model was implemented using different solvers, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Solver</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>SVD</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">67.973</td>
+      <td align="center">69.481</td>
+      <td align="center">67.973</td>
+      <td align="center">68.294</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">67.828</td>
+      <td align="center">69.365</td>
+      <td align="center">67.828</td>
+      <td align="center">68.160</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>LSQR</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">67.973</td>
+      <td align="center">69.481</td>
+      <td align="center">67.973</td>
+      <td align="center">68.294</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">67.828</td>
+      <td align="center">69.365</td>
+      <td align="center">67.828</td>
+      <td align="center">68.160</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Eigen</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">67.973</td>
+      <td align="center">69.481</td>
+      <td align="center">67.973</td>
+      <td align="center">68.294</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">67.828</td>
+      <td align="center">69.365</td>
+      <td align="center">67.828</td>
+      <td align="center">68.160</td>
+    </tr>
+  </tbody>
+  </table>
+
+## Perceptron
+A linear perceptron classifier was implemented using different penalty/regularization terms, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Penalty</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>L1</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">63.530</td>
+      <td align="center">63.101</td>
+      <td align="center">63.530</td>
+      <td align="center">62.958</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">63.440</td>
+      <td align="center">62.884</td>
+      <td align="center">63.440</td>
+      <td align="center">62.828</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>L2</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">62.370</td>
+      <td align="center">61.299</td>
+      <td align="center">62.370</td>
+      <td align="center">61.637</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">62.484</td>
+      <td align="center">61.362</td>
+      <td align="center">62.484</td>
+      <td align="center">61.746</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Elastic Net</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">65.987</td>
+      <td align="center">66.695</td>
+      <td align="center">65.987</td>
+      <td align="center">64.444</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">65.786</td>
+      <td align="center">66.406</td>
+      <td align="center">65.786</td>
+      <td align="center">64.206</td>
+    </tr>
+  </tbody>
+  </table>
+
