@@ -340,7 +340,7 @@ A logistic regression model was implemented using the L2 norm and the 'saga' sol
   </table>
 
 ## Neural Network
-A neural network with 5 hidden layers was implemented using different activation functions, and confusion matrices and bar plots were plotted for the corresponding results.
+A neural network with 5 hidden layers was implemented using different activation functions, and confusion matrices and bar plots were plotted for the corresponding results. Before using the class labels as the target variable, they have be zero-indexed -> 1 to 7 has been converted to 0 to 6.
   <table>
   <thead>
     <tr>
