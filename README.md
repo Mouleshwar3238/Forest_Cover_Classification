@@ -474,3 +474,34 @@ A SGD classifier was implemented using different loss functions, and confusion m
     </tr>
   </tbody>
   </table>
+
+## Histogram-based Gradient Boosting Classifier
+A histogram-based gradient boosting classifier was implemented using L2 regurlarization, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">97.826</td>
+      <td align="center">97.828</td>
+      <td align="center">97.826</td>
+      <td align="center">97.824</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">95.460</td>
+      <td align="center">95.459</td>
+      <td align="center">95.460</td>
+      <td align="center">95.450</td>
+    </tr>
+  </tbody>
+  </table>
+
