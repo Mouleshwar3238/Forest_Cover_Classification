@@ -264,17 +264,17 @@ A Gaussian Naive Bayes classifier was implemented with prior probabilities as th
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">8.762</td>
-      <td align="center">49.628</td>
-      <td align="center">8.762</td>
-      <td align="center">5.633</td>
+      <td align="center">8.818</td>
+      <td align="center">49.597</td>
+      <td align="center">8.818</td>
+      <td align="center">5.596</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">8.676</td>
-      <td align="center">49.848</td>
-      <td align="center">8.676</td>
-      <td align="center">5.580</td>
+      <td align="center">8.729</td>
+      <td align="center">49.808</td>
+      <td align="center">8.729</td>
+      <td align="center">5.543</td>
     </tr>
   </tbody>
   </table>
