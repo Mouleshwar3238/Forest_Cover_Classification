@@ -407,6 +407,74 @@ A neural network with 5 hidden layers was implemented using different activation
   </tbody>
   </table>
 
+## AdaBoost Classifier
+An Adaboost classifier was implemented using different base estimators, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Base Estimator</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>Decision Tree</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">93.880</td>
+      <td align="center">93.877</td>
+      <td align="center">93.880</td>
+      <td align="center">93.878</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Linear SVC</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">52.969</td>
+      <td align="center">56.406</td>
+      <td align="center">52.969</td>
+      <td align="center">53.169</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">53.018</td>
+      <td align="center">56.373</td>
+      <td align="center">53.018</td>
+      <td align="center">53.235</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>Logistic Regression</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">50.793</td>
+      <td align="center">56.051</td>
+      <td align="center">50.793</td>
+      <td align="center">52.616</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">50.578</td>
+      <td align="center">55.833</td>
+      <td align="center">50.578</td>
+      <td align="center">52.440</td>
+    </tr>
+  </tbody>
+  </table>
+
 ## SGD (Stochastic Gradient Descent) Classifier
 A SGD classifier was implemented using different loss functions, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
