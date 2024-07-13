@@ -280,7 +280,7 @@ A Gaussian Naive Bayes classifier was implemented with prior probabilities as th
   </table>
 
 ## Linear SVC (Support Vector Classifier)
-For the linear SVC model, the optimal hyperparameters was found using grid search with cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the linear SVC, the optimal hyperparameters was found using grid search with cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -574,11 +574,10 @@ An Adaboost classifier was implemented using different base estimators, and conf
   </table>
 
 ## SGD (Stochastic Gradient Descent) Classifier
-A SGD classifier was implemented using different loss functions, and confusion matrices and bar plots were plotted for the corresponding results.
+For the SGD classifier, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
-      <th align="center">Loss Function</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -588,55 +587,18 @@ A SGD classifier was implemented using different loss functions, and confusion m
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>Hinge</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.444</td>
-      <td align="center">70.384</td>
-      <td align="center">71.444</td>
-      <td align="center">70.015</td>
+      <td align="center">71.424</td>
+      <td align="center">70.184</td>
+      <td align="center">71.424</td>
+      <td align="center">69.998</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.526</td>
-      <td align="center">70.486</td>
-      <td align="center">71.526</td>
-      <td align="center">70.069/td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Log_Loss</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.499</td>
-      <td align="center">70.135</td>
-      <td align="center">71.499</td>
-      <td align="center">70.304</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.540</td>
-      <td align="center">70.096</td>
-      <td align="center">71.540</td>
-      <td align="center">70.319</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Modified Huber</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">70.603</td>
-      <td align="center">68.941</td>
-      <td align="center">70.603</td>
-      <td align="center">69.030</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">70.558</td>
-      <td align="center">68.798</td>
-      <td align="center">70.558</td>
-      <td align="center">69.941</td>
+      <td align="center">71.452</td>
+      <td align="center">70.149</td>
+      <td align="center">71.452</td>
+      <td align="center">69.990</td>
     </tr>
   </tbody>
   </table>
@@ -702,7 +664,7 @@ A bagging classifier with 20 estimators was implemented using a decision tree as
   </table>
 
 ## XGBoost Classifier
-For the XGBoost classifier model, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the XGBoost classifier, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
