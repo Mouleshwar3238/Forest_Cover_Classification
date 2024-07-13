@@ -242,7 +242,7 @@ A random forest classifier with 200 estimators was implemented using various imp
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
       <td align="center">95.594</td>
-      <td align="center">95.609</td>
+      <td align="center">95.607</td>
       <td align="center">95.594</td>
       <td align="center">95.571</td>
     </tr>
