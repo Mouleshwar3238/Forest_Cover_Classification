@@ -709,3 +709,32 @@ A linear perceptron classifier was implemented using different penalty/regulariz
   </tbody>
   </table>
 
+## Bagging Classifier
+A bagging classifier with 20 estimators was implemented using a decision tree as the base estimator, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">99.952</td>
+      <td align="center">99.952</td>
+      <td align="center">99.952</td>
+      <td align="center">99.952</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">96.511</td>
+      <td align="center">96.504</td>
+      <td align="center">96.511</td>
+      <td align="center">96.504</td>
+    </tr>
+  </tbody>
+  </table>
