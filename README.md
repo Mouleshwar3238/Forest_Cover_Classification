@@ -740,7 +740,7 @@ A bagging classifier with 20 estimators was implemented using a decision tree as
   </table>
 
 ## XGBoost Classifier
-For the XGBoost classifier model, the optimal hyperparameters was found using grid search with cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the XGBoost classifier model, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -754,17 +754,17 @@ For the XGBoost classifier model, the optimal hyperparameters was found using gr
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.993</td>
-      <td align="center">99.993</td>
-      <td align="center">99.993</td>
-      <td align="center">99.993</td>
+      <td align="center">99.992</td>
+      <td align="center">99.992</td>
+      <td align="center">99.992</td>
+      <td align="center">99.992</td>
     </tr>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">96.992</td>
-      <td align="center">96.988</td>
-      <td align="center">96.992</td>
-      <td align="center">96.988</td>
+      <td align="center">96.938</td>
+      <td align="center">96.933</td>
+      <td align="center">96.938</td>
+      <td align="center">96.933</td>
     </tr>
   </tbody>
   </table>
