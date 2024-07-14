@@ -210,7 +210,7 @@ For the random forest model, the optimal hyperparameters was found using halving
   </table>
 
 ## Gaussian Naive Bayes Classifier
-A Gaussian Naive Bayes classifier was implemented with prior probabilities as the class probabilities of the dataset, and confusion matrices and bar plots were plotted for the corresponding results.
+For the Gaussian Naive Bayes model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -224,17 +224,17 @@ A Gaussian Naive Bayes classifier was implemented with prior probabilities as th
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">8.818</td>
-      <td align="center">49.597</td>
-      <td align="center">8.818</td>
-      <td align="center">5.596</td>
+      <td align="center">46.094</td>
+      <td align="center">65.928</td>
+      <td align="center">46.094</td>
+      <td align="center">39.067</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">8.729</td>
-      <td align="center">49.808</td>
-      <td align="center">8.729</td>
-      <td align="center">5.543</td>
+      <td align="center">46.010</td>
+      <td align="center">65.791</td>
+      <td align="center">46.010</td>
+      <td align="center">35.943</td>
     </tr>
   </tbody>
   </table>
