@@ -150,11 +150,10 @@ For the KNN classifier, the accuracy rates were computed for different values of
   </table>
 
 ## Decision Tree Classifier
-A decision tree classifier was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+For the decision tree model, the optimal hyperparameters was found using grid search with 3-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
-      <th align="center">Criterion</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -164,7 +163,6 @@ A decision tree classifier was implemented using various impurity measures, and 
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
       <td align="center">100.000</td>
@@ -177,24 +175,6 @@ A decision tree classifier was implemented using various impurity measures, and 
       <td align="center">94.378</td>
       <td align="center">94.381</td>
       <td align="center">94.379</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.879</td>
-      <td align="center">93.876</td>
-      <td align="center">93.879</td>
-      <td align="center">93.877</td>
     </tr>
   </tbody>
   </table>
