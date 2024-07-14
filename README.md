@@ -150,7 +150,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
   </table>
 
 ## Decision Tree Classifier
-For the decision tree model, the optimal hyperparameters was found using grid search with 3-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the decision tree model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
