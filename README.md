@@ -240,7 +240,7 @@ For the Gaussian Naive Bayes model, the optimal hyperparameters was found using 
   </table>
 
 ## Linear SVC (Support Vector Classifier)
-For the linear SVC, the optimal hyperparameters was found using grid search with cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the linear SVC model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
