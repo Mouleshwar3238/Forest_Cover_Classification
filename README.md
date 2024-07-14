@@ -270,7 +270,7 @@ For the linear SVC model, the optimal hyperparameters was found using halving gr
   </table>
 
 ## Logistic Regression
-A logistic regression model was implemented using the L2 norm and the 'saga' solver, and confusion matrices and bar plots were plotted for the corresponding results.
+For the logistic regression model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -284,17 +284,17 @@ A logistic regression model was implemented using the L2 norm and the 'saga' sol
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">72.514</td>
-      <td align="center">71.309</td>
-      <td align="center">72.514</td>
-      <td align="center">71.496</td>
+      <td align="center">72.173</td>
+      <td align="center">70.839</td>
+      <td align="center">72.173</td>
+      <td align="center">71.070</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">72.261</td>
-      <td align="center">70.979</td>
-      <td align="center">72.261</td>
-      <td align="center">71.220</td>
+      <td align="center">72.169</td>
+      <td align="center">70.796</td>
+      <td align="center">72.169</td>
+      <td align="center">71.017</td>
     </tr>
   </tbody>
   </table>
