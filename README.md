@@ -330,7 +330,7 @@ For the LDA model, the optimal hyperparameters was found using halving grid sear
   </table>
 
 ## Perceptron
-For the perceptron, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the perceptron model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -344,17 +344,17 @@ For the perceptron, the optimal hyperparameters was found using grid search with
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">59.223</td>
-      <td align="center">62.797</td>
-      <td align="center">59.223</td>
-      <td align="center">57.803</td>
+      <td align="center">60.319</td>
+      <td align="center">60.491</td>
+      <td align="center">60.319</td>
+      <td align="center">60.191</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">59.202</td>
-      <td align="center">62.776</td>
-      <td align="center">59.202</td>
-      <td align="center">57.796</td>
+      <td align="center">60.214</td>
+      <td align="center">60.366</td>
+      <td align="center">60.214</td>
+      <td align="center">60.058</td>
     </tr>
   </tbody>
   </table>
