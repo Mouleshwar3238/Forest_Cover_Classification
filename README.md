@@ -180,11 +180,10 @@ For the decision tree model, the optimal hyperparameters was found using grid se
   </table>
 
 ## Random Forest Classifier
-A random forest classifier with 200 estimators was implemented using various impurity measures, and confusion matrices and bar plots were plotted for the corresponding results.
+For the random forest model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
-      <th align="center">Criterion</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -194,7 +193,6 @@ A random forest classifier with 200 estimators was implemented using various imp
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>Entropy</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">100.000</td>
       <td align="center">100.000</td>
@@ -203,28 +201,10 @@ A random forest classifier with 200 estimators was implemented using various imp
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.770</td>
-      <td align="center">95.779</td>
-      <td align="center">95.770</td>
-      <td align="center">95.751</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Gini Index</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.594</td>
-      <td align="center">95.607</td>
-      <td align="center">95.594</td>
-      <td align="center">95.571</td>
+      <td align="center">96.295</td>
+      <td align="center">96.296</td>
+      <td align="center">96.295</td>
+      <td align="center">96.283</td>
     </tr>
   </tbody>
   </table>
