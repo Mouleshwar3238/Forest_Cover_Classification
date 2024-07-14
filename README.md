@@ -300,11 +300,10 @@ For the logistic regression model, the optimal hyperparameters was found using h
   </table>
 
 ## Linear Discriminant Analysis (LDA)
-A LDA model was implemented using different solvers, and confusion matrices and bar plots were plotted for the corresponding results.
+For the LDA model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
-      <th align="center">Solver</th>
       <th align="center"></th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
@@ -314,43 +313,6 @@ A LDA model was implemented using different solvers, and confusion matrices and 
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="2"><strong>SVD</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">67.973</td>
-      <td align="center">69.481</td>
-      <td align="center">67.973</td>
-      <td align="center">68.294</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">67.828</td>
-      <td align="center">69.365</td>
-      <td align="center">67.828</td>
-      <td align="center">68.160</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>LSQR</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">67.973</td>
-      <td align="center">69.481</td>
-      <td align="center">67.973</td>
-      <td align="center">68.294</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">67.828</td>
-      <td align="center">69.365</td>
-      <td align="center">67.828</td>
-      <td align="center">68.160</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>Eigen</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
       <td align="center">67.973</td>
       <td align="center">69.481</td>
