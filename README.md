@@ -518,7 +518,7 @@ For the gradient boosting classifier, the optimal hyperparameters was found usin
   </table>
 
 ## Bagging Classifier
-A bagging classifier with 20 estimators was implemented using a decision tree as the base estimator, and confusion matrices and bar plots were plotted for the corresponding results.
+For the bagging classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -532,17 +532,17 @@ A bagging classifier with 20 estimators was implemented using a decision tree as
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.952</td>
-      <td align="center">99.952</td>
-      <td align="center">99.952</td>
-      <td align="center">99.952</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.511</td>
-      <td align="center">96.504</td>
-      <td align="center">96.511</td>
-      <td align="center">96.504</td>
+      <td align="center">96.905</td>
+      <td align="center">96.901</td>
+      <td align="center">96.905</td>
+      <td align="center">96.894</td>
     </tr>
   </tbody>
   </table>
