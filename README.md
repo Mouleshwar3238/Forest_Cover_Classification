@@ -488,7 +488,7 @@ For the SGD classifier, the optimal hyperparameters was found using halving grid
   </table>
 
 ## Histogram-based Gradient Boosting Classifier
-A histogram-based gradient boosting classifier was implemented using L2 regurlarization, and confusion matrices and bar plots were plotted for the corresponding results.
+For the gradient boosting classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -502,17 +502,17 @@ A histogram-based gradient boosting classifier was implemented using L2 regurlar
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.826</td>
-      <td align="center">97.828</td>
-      <td align="center">97.826</td>
-      <td align="center">97.824</td>
+      <td align="center">97.918</td>
+      <td align="center">97.921</td>
+      <td align="center">97.918</td>
+      <td align="center">97.917</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.460</td>
-      <td align="center">95.459</td>
-      <td align="center">95.460</td>
-      <td align="center">95.450</td>
+      <td align="center">95.608</td>
+      <td align="center">95.608</td>
+      <td align="center">95.608</td>
+      <td align="center">95.599</td>
     </tr>
   </tbody>
   </table>
