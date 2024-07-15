@@ -458,7 +458,7 @@ For the AdaBoost classifier model, the optimal hyperparameters was found using h
   </table>
 
 ## SGD (Stochastic Gradient Descent) Classifier
-For the SGD classifier, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the SGD classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -472,17 +472,17 @@ For the SGD classifier, the optimal hyperparameters was found using grid search 
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.424</td>
-      <td align="center">70.184</td>
-      <td align="center">71.424</td>
-      <td align="center">69.998</td>
+      <td align="center">71.428</td>
+      <td align="center">70.039</td>
+      <td align="center">71.428</td>
+      <td align="center">69.948</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.452</td>
-      <td align="center">70.149</td>
-      <td align="center">71.452</td>
-      <td align="center">69.990</td>
+      <td align="center">71.472</td>
+      <td align="center">70.018</td>
+      <td align="center">71.472</td>
+      <td align="center">69.951</td>
     </tr>
   </tbody>
   </table>
