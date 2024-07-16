@@ -449,10 +449,10 @@ For the AdaBoost classifier model, the optimal hyperparameters was found using h
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.105</td>
-      <td align="center">97.100</td>
-      <td align="center">97.105</td>
-      <td align="center">97.098</td>
+      <td align="center">97.369</td>
+      <td align="center">97.365</td>
+      <td align="center">97.369</td>
+      <td align="center">97.366</td>
     </tr>
   </tbody>
   </table>
