@@ -562,17 +562,17 @@ For the XGBoost classifier, the optimal hyperparameters was found using halving 
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.597</td>
-      <td align="center">99.597</td>
-      <td align="center">99.597</td>
-      <td align="center">99.596</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.637</td>
-      <td align="center">96.634</td>
-      <td align="center">96.637</td>
-      <td align="center">96.630</td>
+      <td align="center">97.283</td>
+      <td align="center">97.279</td>
+      <td align="center">97.283</td>
+      <td align="center">97.279</td>
     </tr>
   </tbody>
   </table>
