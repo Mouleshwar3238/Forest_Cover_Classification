@@ -539,16 +539,16 @@ For the bagging classifier, the optimal hyperparameters was found using halving 
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.905</td>
-      <td align="center">96.901</td>
-      <td align="center">96.905</td>
-      <td align="center">96.894</td>
+      <td align="center">96.917</td>
+      <td align="center">96.912</td>
+      <td align="center">96.917</td>
+      <td align="center">96.909</td>
     </tr>
   </tbody>
   </table>
 
 ## XGBoost Classifier
-For the XGBoost classifier, the optimal hyperparameters was found using grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the XGBoost classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -562,17 +562,17 @@ For the XGBoost classifier, the optimal hyperparameters was found using grid sea
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.992</td>
-      <td align="center">99.992</td>
-      <td align="center">99.992</td>
-      <td align="center">99.992</td>
+      <td align="center">99.597</td>
+      <td align="center">99.597</td>
+      <td align="center">99.597</td>
+      <td align="center">99.596</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.938</td>
-      <td align="center">96.933</td>
-      <td align="center">96.938</td>
-      <td align="center">96.933</td>
+      <td align="center">96.637</td>
+      <td align="center">96.634</td>
+      <td align="center">96.637</td>
+      <td align="center">96.630</td>
     </tr>
   </tbody>
   </table>
