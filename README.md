@@ -150,7 +150,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
   </table>
 
 ## Decision Tree Classifier
-For the decision tree model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the decision tree model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -180,7 +180,7 @@ For the decision tree model, the optimal hyperparameters was found using halving
   </table>
 
 ## Random Forest Classifier
-For the random forest model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the random forest model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -210,7 +210,7 @@ For the random forest model, the optimal hyperparameters was found using halving
   </table>
 
 ## Gaussian Naive Bayes Classifier
-For the Gaussian Naive Bayes model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the Gaussian Naive Bayes model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -240,7 +240,7 @@ For the Gaussian Naive Bayes model, the optimal hyperparameters was found using 
   </table>
 
 ## Linear SVC (Support Vector Classifier)
-For the linear SVC model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the linear SVC model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -270,7 +270,7 @@ For the linear SVC model, the optimal hyperparameters was found using halving gr
   </table>
 
 ## Logistic Regression
-For the logistic regression model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the logistic regression model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -300,7 +300,7 @@ For the logistic regression model, the optimal hyperparameters was found using h
   </table>
 
 ## Linear Discriminant Analysis (LDA)
-For the LDA model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the LDA model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -330,7 +330,7 @@ For the LDA model, the optimal hyperparameters was found using halving grid sear
   </table>
 
 ## Perceptron
-For the perceptron model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the perceptron model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -428,7 +428,7 @@ A neural network with 5 hidden layers was implemented using different activation
   </table>
 
 ## AdaBoost Classifier
-For the AdaBoost classifier model, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the AdaBoost classifier model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -458,7 +458,7 @@ For the AdaBoost classifier model, the optimal hyperparameters was found using h
   </table>
 
 ## SGD (Stochastic Gradient Descent) Classifier
-For the SGD classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -488,7 +488,7 @@ For the SGD classifier, the optimal hyperparameters was found using halving grid
   </table>
 
 ## Histogram-based Gradient Boosting Classifier
-For the gradient boosting classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the gradient boosting classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -518,7 +518,7 @@ For the gradient boosting classifier, the optimal hyperparameters was found usin
   </table>
 
 ## Bagging Classifier
-For the bagging classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the bagging classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -548,7 +548,7 @@ For the bagging classifier, the optimal hyperparameters was found using halving 
   </table>
 
 ## XGBoost Classifier
-For the XGBoost classifier, the optimal hyperparameters was found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+For the XGBoost classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
