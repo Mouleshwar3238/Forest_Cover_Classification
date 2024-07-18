@@ -1,5 +1,5 @@
 # Forest_Cover_Classification
-Implemented some popular classification algorithms to predict the type of forest cover
+Implemented some popular classification algorithms to predict the type of forest cover. (Extensive improvements were carried out later)
 
 ## Dataset Description
 The dataset contains data from 4 areas of the Roosevelt National Forest in Colorado. It includes information on tree type, shadow coverage, distance to nearby landmarks (roads etc.), soil type, and local topography for 7 different types of forest cover.
