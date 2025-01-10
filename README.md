@@ -33,8 +33,12 @@ The dataset contains data from 4 areas of the Roosevelt National Forest in Color
 
 The dataset was split into a training set and a test set, with 75 % being used for training and 25 % being used for testing. Before being used, the data in both subsets was normalized using StandardScaler. Additionally, for the neural network model, the training set was further split into training and validation subsets, with 75 % being used for training and 25 % being used for validation.
 
+For all the models except the K Nearest Neighbour Classifier and the neural network, the optimal hyperparameters were found using halving grid search with 5-fold cross validation.
+
+Finally, confusion matrices and bar graphs were plotted to visualize the results for each model.
+
 ## K Nearest Neighbours (KNN Classifier)
-For the KNN classifier, the accuracy rates were computed for different values of K for the training dataset, and confusion matrices and bar plots were plotted for some of these values to visualize the frequency distribution of actual and predicted labels for the test dataset.
+For the KNN classifier, the accuracy rates were computed for different values of K for the training as well as test datasets.
 * Best Value of K (= 1)
   <table>
   <thead>
@@ -132,7 +136,6 @@ For the KNN classifier, the accuracy rates were computed for different values of
   </table>
 
 ## Decision Tree Classifier
-For the decision tree model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -162,7 +165,6 @@ For the decision tree model, the optimal hyperparameters were found using halvin
   </table>
 
 ## Random Forest Classifier
-For the random forest model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -192,7 +194,6 @@ For the random forest model, the optimal hyperparameters were found using halvin
   </table>
 
 ## Gaussian Naive Bayes Classifier
-For the Gaussian Naive Bayes model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -222,7 +223,6 @@ For the Gaussian Naive Bayes model, the optimal hyperparameters were found using
   </table>
 
 ## Linear SVC (Support Vector Classifier)
-For the linear SVC model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -252,7 +252,6 @@ For the linear SVC model, the optimal hyperparameters were found using halving g
   </table>
 
 ## Logistic Regression
-For the logistic regression model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -266,23 +265,22 @@ For the logistic regression model, the optimal hyperparameters were found using 
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">72.173</td>
-      <td align="center">70.839</td>
-      <td align="center">72.173</td>
-      <td align="center">71.070</td>
+      <td align="center">72.448</td>
+      <td align="center">71.295</td>
+      <td align="center">72.448</td>
+      <td align="center">71.484</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">72.169</td>
-      <td align="center">70.796</td>
-      <td align="center">72.169</td>
-      <td align="center">71.017</td>
+      <td align="center">72.507</td>
+      <td align="center">71.152</td>
+      <td align="center">72.507</td>
+      <td align="center">71.552</td>
     </tr>
   </tbody>
   </table>
 
 ## SGD (Stochastic Gradient Descent) Classifier
-For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -296,23 +294,23 @@ For the SGD classifier, the optimal hyperparameters were found using halving gri
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.428</td>
-      <td align="center">70.039</td>
-      <td align="center">71.428</td>
-      <td align="center">69.948</td>
+      <td align="center">71.412</td>
+      <td align="center">69.955</td>
+      <td align="center">71.412</td>
+      <td align="center">69.913</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.472</td>
-      <td align="center">70.018</td>
-      <td align="center">71.472</td>
-      <td align="center">69.951</td>
+      <td align="center">71.364</td>
+      <td align="center">70.015</td>
+      <td align="center">71.364</td>
+      <td align="center">69.879</td>
     </tr>
   </tbody>
   </table>
 
 ## Neural Network
-A neural network with 5 hidden layers was implemented using different activation functions, and confusion matrices and bar plots were plotted for the corresponding results. Before using the class labels as the target variable, they have be zero-indexed -> 1 to 7 has been converted to 0 to 6.
+A neural network with 5 hidden layers was implemented using different activation functions. Before using the class labels as the target variable, they have been zero-indexed -> 1 to 7 has been converted to 0 to 6.
   <table>
   <thead>
     <tr>
@@ -328,17 +326,17 @@ A neural network with 5 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>ReLU</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.535</td>
-      <td align="center">96.529</td>
-      <td align="center">95.054</td>
-      <td align="center">95.780</td>
+      <td align="center">95.010</td>
+      <td align="center">92.683</td>
+      <td align="center">91.618</td>
+      <td align="center">92.078</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.872</td>
-      <td align="center">94.200</td>
-      <td align="center">92.102</td>
-      <td align="center">93.123</td>
+      <td align="center">93.997</td>
+      <td align="center">90.922</td>
+      <td align="center">89.501</td>
+      <td align="center">90.138</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -346,17 +344,17 @@ A neural network with 5 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>Tanh</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.742</td>
-      <td align="center">95.612</td>
-      <td align="center">96.139</td>
-      <td align="center">95.869</td>
+      <td align="center">96.864</td>
+      <td align="center">95.259</td>
+      <td align="center">93.779</td>
+      <td align="center">91.204</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.540</td>
-      <td align="center">92.041</td>
-      <td align="center">92.279</td>
-      <td align="center">92.157</td>
+      <td align="center">95.014</td>
+      <td align="center">91.932</td>
+      <td align="center">90.576</td>
+      <td align="center">91.204</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -364,23 +362,22 @@ A neural network with 5 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>Sigmoid</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.432</td>
-      <td align="center">96.447</td>
-      <td align="center">94.942</td>
-      <td align="center">95.653</td>
+      <td align="center">94.290</td>
+      <td align="center">92.100</td>
+      <td align="center">90.649</td>
+      <td align="center">91.356</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.012</td>
-      <td align="center">94.470</td>
-      <td align="center">91.959</td>
-      <td align="center">93.090</td>
+      <td align="center">93.471</td>
+      <td align="center">90.658</td>
+      <td align="center">89.175</td>
+      <td align="center">89.896</td>
     </tr>
   </tbody>
   </table>
 
 ## AdaBoost Classifier
-For the AdaBoost classifier model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -401,16 +398,15 @@ For the AdaBoost classifier model, the optimal hyperparameters were found using 
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.369</td>
-      <td align="center">97.365</td>
-      <td align="center">97.369</td>
-      <td align="center">97.366</td>
+      <td align="center">94.308</td>
+      <td align="center">94.305</td>
+      <td align="center">94.308</td>
+      <td align="center">94.306</td>
     </tr>
   </tbody>
   </table>
 
 ## Histogram-based Gradient Boosting Classifier
-For the gradient boosting classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -424,23 +420,22 @@ For the gradient boosting classifier, the optimal hyperparameters were found usi
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.918</td>
-      <td align="center">97.921</td>
-      <td align="center">97.918</td>
-      <td align="center">97.917</td>
+      <td align="center">95.398</td>
+      <td align="center">95.403</td>
+      <td align="center">95.398</td>
+      <td align="center">95.391</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.608</td>
-      <td align="center">95.608</td>
-      <td align="center">95.608</td>
-      <td align="center">95.599</td>
+      <td align="center">93.390</td>
+      <td align="center">93.392</td>
+      <td align="center">93.390</td>
+      <td align="center">93.378</td>
     </tr>
   </tbody>
   </table>
 
 ## Bagging Classifier
-For the bagging classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -454,17 +449,17 @@ For the bagging classifier, the optimal hyperparameters were found using halving
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
+      <td align="center">99.995</td>
+      <td align="center">99.995</td>
+      <td align="center">99.995</td>
+      <td align="center">99.995</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.917</td>
-      <td align="center">96.912</td>
-      <td align="center">96.917</td>
-      <td align="center">96.909</td>
+      <td align="center">96.938</td>
+      <td align="center">96.933</td>
+      <td align="center">96.938</td>
+      <td align="center">96.932</td>
     </tr>
   </tbody>
   </table>
