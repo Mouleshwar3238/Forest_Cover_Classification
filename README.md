@@ -56,10 +56,10 @@ For the KNN classifier, the accuracy rates were computed for different values of
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.554</td>
-      <td align="center">93.552</td>
-      <td align="center">93.554</td>
-      <td align="center">93.553</td>
+      <td align="center">93.446</td>
+      <td align="center">93.469</td>
+      <td align="center">93.466</td>
+      <td align="center">93.467</td>
     </tr>
   </tbody>
   </table>
@@ -80,17 +80,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>3</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">96.924</td>
-      <td align="center">96.920</td>
-      <td align="center">96.924</td>
-      <td align="center">96.921</td>
+      <td align="center">96.811</td>
+      <td align="center">96.807</td>
+      <td align="center">96.811</td>
+      <td align="center">96.807</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.244</td>
-      <td align="center">93.224</td>
-      <td align="center">93.244</td>
-      <td align="center">93.229</td>
+      <td align="center">93.151</td>
+      <td align="center">93.134</td>
+      <td align="center">93.151</td>
+      <td align="center">93.139</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -98,17 +98,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>5</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">95.624</td>
-      <td align="center">95.616</td>
-      <td align="center">95.624</td>
-      <td align="center">95.616</td>
+      <td align="center">95.475</td>
+      <td align="center">95.466</td>
+      <td align="center">95.475</td>
+      <td align="center">95.467</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">92.802</td>
-      <td align="center">92.776</td>
-      <td align="center">92.802</td>
-      <td align="center">92.778</td>
+      <td align="center">92.723</td>
+      <td align="center">92.702</td>
+      <td align="center">92.723</td>
+      <td align="center">92.705</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -116,35 +116,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>10</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">93.585</td>
-      <td align="center">93.567</td>
-      <td align="center">93.585</td>
-      <td align="center">93.557</td>
+      <td align="center">93.418</td>
+      <td align="center">93.398</td>
+      <td align="center">93.418</td>
+      <td align="center">93.387</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">91.640</td>
-      <td align="center">91.596</td>
-      <td align="center">91.640</td>
-      <td align="center">91.593</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>20</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">91.298</td>
-      <td align="center">91.257</td>
-      <td align="center">91.298</td>
-      <td align="center">91.245</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.102</td>
-      <td align="center">90.046</td>
-      <td align="center">90.102</td>
-      <td align="center">90.033</td>
+      <td align="center">91.605</td>
+      <td align="center">91.569</td>
+      <td align="center">91.605</td>
+      <td align="center">91.566</td>
     </tr>
   </tbody>
   </table>
@@ -171,10 +153,10 @@ For the decision tree model, the optimal hyperparameters were found using halvin
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">94.381</td>
-      <td align="center">94.378</td>
-      <td align="center">94.381</td>
-      <td align="center">94.379</td>
+      <td align="center">94.303</td>
+      <td align="center">94.302</td>
+      <td align="center">94.303</td>
+      <td align="center">94.302</td>
     </tr>
   </tbody>
   </table>
@@ -201,10 +183,10 @@ For the random forest model, the optimal hyperparameters were found using halvin
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.295</td>
-      <td align="center">96.296</td>
-      <td align="center">96.295</td>
-      <td align="center">96.283</td>
+      <td align="center">95.691</td>
+      <td align="center">95.701</td>
+      <td align="center">95.691</td>
+      <td align="center">95.672</td>
     </tr>
   </tbody>
   </table>
@@ -224,17 +206,17 @@ For the Gaussian Naive Bayes model, the optimal hyperparameters were found using
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">46.094</td>
-      <td align="center">65.928</td>
-      <td align="center">46.094</td>
-      <td align="center">39.067</td>
+      <td align="center">46.011</td>
+      <td align="center">66.014</td>
+      <td align="center">46.011</td>
+      <td align="center">38.916</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">46.010</td>
-      <td align="center">65.791</td>
-      <td align="center">46.010</td>
-      <td align="center">35.943</td>
+      <td align="center">45.765</td>
+      <td align="center">65.648</td>
+      <td align="center">45.765</td>
+      <td align="center">38.583</td>
     </tr>
   </tbody>
   </table>
@@ -254,17 +236,17 @@ For the linear SVC model, the optimal hyperparameters were found using halving g
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.274</td>
-      <td align="center">70.398</td>
-      <td align="center">71.274</td>
-      <td align="center">69.713</td>
+      <td align="center">71.269</td>
+      <td align="center">70.407</td>
+      <td align="center">71.269</td>
+      <td align="center">69.673</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.272</td>
-      <td align="center">70.354</td>
-      <td align="center">71.272</td>
-      <td align="center">69.663</td>
+      <td align="center">71.276</td>
+      <td align="center">70.299</td>
+      <td align="center">71.276</td>
+      <td align="center">69.688</td>
     </tr>
   </tbody>
   </table>
