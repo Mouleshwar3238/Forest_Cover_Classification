@@ -299,8 +299,8 @@ For the logistic regression model, the optimal hyperparameters were found using 
   </tbody>
   </table>
 
-## Linear Discriminant Analysis (LDA)
-For the LDA model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+## SGD (Stochastic Gradient Descent) Classifier
+For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
   <thead>
     <tr>
@@ -314,47 +314,17 @@ For the LDA model, the optimal hyperparameters were found using halving grid sea
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">67.973</td>
-      <td align="center">69.481</td>
-      <td align="center">67.973</td>
-      <td align="center">68.294</td>
+      <td align="center">71.428</td>
+      <td align="center">70.039</td>
+      <td align="center">71.428</td>
+      <td align="center">69.948</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">67.828</td>
-      <td align="center">69.365</td>
-      <td align="center">67.828</td>
-      <td align="center">68.160</td>
-    </tr>
-  </tbody>
-  </table>
-
-## Perceptron
-For the perceptron model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">60.319</td>
-      <td align="center">60.491</td>
-      <td align="center">60.319</td>
-      <td align="center">60.191</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">60.214</td>
-      <td align="center">60.366</td>
-      <td align="center">60.214</td>
-      <td align="center">60.058</td>
+      <td align="center">71.472</td>
+      <td align="center">70.018</td>
+      <td align="center">71.472</td>
+      <td align="center">69.951</td>
     </tr>
   </tbody>
   </table>
@@ -457,36 +427,6 @@ For the AdaBoost classifier model, the optimal hyperparameters were found using 
   </tbody>
   </table>
 
-## SGD (Stochastic Gradient Descent) Classifier
-For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">71.428</td>
-      <td align="center">70.039</td>
-      <td align="center">71.428</td>
-      <td align="center">69.948</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">71.472</td>
-      <td align="center">70.018</td>
-      <td align="center">71.472</td>
-      <td align="center">69.951</td>
-    </tr>
-  </tbody>
-  </table>
-
 ## Histogram-based Gradient Boosting Classifier
 For the gradient boosting classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
@@ -543,36 +483,6 @@ For the bagging classifier, the optimal hyperparameters were found using halving
       <td align="center">96.912</td>
       <td align="center">96.917</td>
       <td align="center">96.909</td>
-    </tr>
-  </tbody>
-  </table>
-
-## XGBoost Classifier
-For the XGBoost classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.283</td>
-      <td align="center">97.279</td>
-      <td align="center">97.283</td>
-      <td align="center">97.279</td>
     </tr>
   </tbody>
   </table>
