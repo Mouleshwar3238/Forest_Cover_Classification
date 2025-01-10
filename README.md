@@ -31,7 +31,7 @@ The dataset contains data from 4 areas of the Roosevelt National Forest in Color
 </tbody>
 </table>
 
-The dataset was split into a training subset and test subset, with 80 % being used for training and 20 % being used for testing. Before being used, the data in both subsets was normalized using StandardScaler.
+The dataset was split into a training set and a test set, with 75 % being used for training and 25 % being used for testing. Before being used, the data in both subsets was normalized using StandardScaler. Additionally, for the neural network model, the training set was further split into training and validation subsets, with 75 % being used for training and 25 % being used for validation.
 
 ## K Nearest Neighbours (KNN Classifier)
 For the KNN classifier, the accuracy rates were computed for different values of K for the training dataset, and confusion matrices and bar plots were plotted for some of these values to visualize the frequency distribution of actual and predicted labels for the test dataset.
